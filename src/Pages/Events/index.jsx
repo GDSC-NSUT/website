@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Card from "./Card";
+import Card from "./card";
 import "./events.css";
 import { useState } from "react";
 import upcomingEvents from "./events_upcoming.json";
