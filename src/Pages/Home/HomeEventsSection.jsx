@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Carousel from '../Events/Carousel';
 import Image from '../../Assets/Images/events-workshop.jpg';
 
+
 export default function HomeEventsSection() {
 
     const data = [
@@ -17,8 +18,8 @@ export default function HomeEventsSection() {
                 data.length > 0 ?
                     (
                         <section className="home-section events-section">
-                            <div className="title" style={{ margin: "5px 80px 20px" }}>Featured Events</div>
-                            <div className={'carousel-container'} style={{ margin: "0 80px" }}>
+                            <div className="title home-carousel-title">Featured Events</div>
+                            <div className={'carousel-container'}>
                                 <Carousel data={data} />
                             </div>
                         </section>
