@@ -9,6 +9,7 @@ import { RiSearchLine } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 import { HiLocationMarker } from "react-icons/hi";
 import Carousel from "./Carousel";
+import Image from "../../Assets/Images/events-workshop.jpg";
 
 const Events = () => {
   const [events, setEvents] = useState("U");
@@ -47,11 +48,17 @@ const Events = () => {
     return () => document.removeEventListener("click", handleShowDropdown);
   }, [])
 
+  const data = [
+    { key: 1, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" }, 
+    { key: 2, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" }, 
+    { key: 3, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" } 
+  ];
+
   return (
     <>
       <main>
         <div className={'carousel-container'}>
-          <Carousel />
+          <Carousel data={ data } />
         </div>
         <div className={'search-container'}>
           <div className="search-wrapper">

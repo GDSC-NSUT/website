@@ -6,9 +6,8 @@ import { MdArrowBackIosNew } from "react-icons/md";
 import 'swiper/css';
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Image from "../../Assets/Images/events-workshop.jpg";
 
-const Carousel = () => {
+const Carousel = ( { data } ) => {
 
 	const pagination = {
 		el: '.carousel-dots',
@@ -36,13 +35,13 @@ const Carousel = () => {
 				navigation={navigation}
 			>
 				{
-					[1, 2, 3].map(item => (
-						<SwiperSlide key={item}>
+					data.map(item => (
+						<SwiperSlide key={item.key}>
 							<div className={'carousel-item'}>
-								<img src={Image} alt="hello" />
+								<img src={item.Image} alt="hello" />
 								<div className={'carousel-item-content'}>
-									<h1 className={'carousel-item-title'}>UX Tech 2022</h1>
-									<p className={'carousel-item-desc'}>A user interface and experience workshop</p>
+									<h1 className={'carousel-item-title'}>{item.title}</h1>
+									<p className={'carousel-item-desc'}>{item.desc}</p>
 								</div>
 							</div>
 						</SwiperSlide>
