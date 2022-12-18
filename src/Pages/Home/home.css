@@ -494,6 +494,14 @@
     .front-section .soceity-info {
         display: none;
     }
+    
+    .home-carousel-title {
+        margin: 5px 20px 20px;
+    }
+
+    .home-section.events-section .carousel-container {
+        margin: 0 20px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -529,13 +537,8 @@
     .contacts-section .info {
         font-size: 16px;
     }
-
+    
     .home-carousel-title {
-        margin: 5px 20px 20px;
         text-align: center;
-    }
-
-    .home-section.events-section .carousel-container {
-        margin: 0 20px;
     }
 }
