@@ -2,7 +2,7 @@ import React from 'react';
 // import { useEffect } from 'react';
 import "./team.css";
 import { useParams, Navigate } from 'react-router-dom';
-import Departments from "./Departments.json";
+import Departments from "./Departments.js";
 import DepartmentUtility from "./DepartmentUtility";
 
 
@@ -29,7 +29,7 @@ export default function Department() {
       <DepartmentUtility department="app-development" />
       <DepartmentUtility department="competitive-programming" />
       <DepartmentUtility department="machine-learning" />
-      <DepartmentUtility department="graphics" />
+      <DepartmentUtility department="design" />
       <DepartmentUtility department="content" />
       <DepartmentUtility department="operations" />
       </>

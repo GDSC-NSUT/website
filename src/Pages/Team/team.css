@@ -90,9 +90,16 @@
 }
 
 .team-card .overlay .member-about {
+    --lines: 8;
     color: white;
     font-size: 17px;
     font-weight: 300;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: var(--lines);
+    line-clamp: var(--lines);
+   -webkit-box-orient: vertical;
 }
 
 .team-card .overlay .social {

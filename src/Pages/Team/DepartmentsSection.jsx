@@ -12,7 +12,7 @@ export default function DepartmentsSection() {
                 <EFPCard Image={Image} Title="Web Development" Content="Lorem ipsum dolor. Adipisci quas vel eum fugiat ad perspiciatis nobis doloribus explicabo odit natus!" To="/team/web-development" />
                 <EFPCard Image={Image} Title="App Development" Content="Lorem ipsum dolor. Adipisci quas vel eum fugiat ad perspiciatis nobis doloribus explicabo odit natus!" To="/team/app-development" />
                 <EFPCard Image={Image} Title="Competitive Programming" Content="Lorem ipsum dolor. Adipisci quas vel eum fugiat ad perspiciatis nobis doloribus explicabo odit natus!" To="/team/competitive-programming" />
-                <EFPCard Image={Image} Title="Graphics" Content="Lorem ipsum dolor. Adipisci quas vel eum fugiat ad perspiciatis nobis doloribus explicabo odit natus!" To="/team/graphics" />
+                <EFPCard Image={Image} Title="Design" Content="Lorem ipsum dolor. Adipisci quas vel eum fugiat ad perspiciatis nobis doloribus explicabo odit natus!" To="/team/design" />
                 <EFPCard Image={Image} Title="Content" Content="Lorem ipsum dolor. Adipisci quas vel eum fugiat ad perspiciatis nobis doloribus explicabo odit natus!" To="/team/content" />
                 <EFPCard Image={Image} Title="Machine Learning" Content="Lorem ipsum dolor. Adipisci quas vel eum fugiat ad perspiciatis nobis doloribus explicabo odit natus!" To="/team/machine-learning" />
                 <EFPCard Image={Image} Title="Operations" Content="Lorem ipsum dolor. Adipisci quas vel eum fugiat ad perspiciatis nobis doloribus explicabo odit natus!" To="/team/operations" />
