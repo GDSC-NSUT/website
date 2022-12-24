@@ -266,19 +266,18 @@
     .team-hero-section .right-container {
         display: none;
     }
-}
-
-@media screen and (max-width: 600px) {
     .department-page .left-section .title {
         text-align: center;
     }
     .department-page .left-section .sub-title {
         text-align: center;
     }
-    .department-page .department-members,
     .department-page .department-hero-section  {
         padding: 70px 10px;
         justify-content: center;
+    }
+    .department-page .department-members {
+        justify-items: center;
     }
 }
 
@@ -308,5 +307,8 @@
     }
     .team-section.efp-section > .title {
         font-size: 28px;
+    }
+    .department-page .department-members {
+        padding: 70px 10px;
     }
 }
