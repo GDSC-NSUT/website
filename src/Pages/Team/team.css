@@ -279,6 +279,9 @@
     .department-page .department-members {
         justify-items: center;
     }
+    .mentor-card-container {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 500px) {
