@@ -245,7 +245,7 @@ const Departments = {
                 "id": 33,
                 "memberImage": require("../../Assets/Images/member-images/design/PulkitBatra_Design - Pulkit Batra.jpeg"),
                 "memberName": "Pulkit Batra ",
-                "memberAbout": "developer who can design",
+                "memberAbout": "Developer who can design",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/pulkitbxtra",
                 "memberSocialGithubPath": "https://github.com/PulkitBxtra",
                 "memberSocialMailPath": "pulkit248k@gmail.com"

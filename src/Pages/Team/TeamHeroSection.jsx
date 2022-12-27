@@ -6,7 +6,7 @@ export default function TeamHeroSection() {
     <section className="team-section team-hero-section">
         <div className="left-container">
             <div className="title">Our Team</div>
-            <div className="content">our teaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation consequatm.</div>
+            <div className="content">Strength of GDSC NSUT. We create , implement and accomplish the ideas. Learn and acquire knowledge with us through great, idiosyncratic experiences and skills.</div>
         </div>
         <div className="right-container">
             <img src={TeamHeroImage} alt="" />
