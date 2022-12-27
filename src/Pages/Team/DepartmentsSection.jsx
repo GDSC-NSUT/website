@@ -15,7 +15,7 @@ export default function DepartmentsSection() {
                 <EFPCard Image={Image} Title="Graphics" Content="Through creative visual sensations, showcasing the strategies that has to be done. Conceptualizing and presenting the ideas via illustrations, logos and other designs using softwares." To="/team/design" />
                 <EFPCard Image={Image} Title="Content" Content="Pays heed to details meticulously. We plan, produce and promote by complementary and communication skills. Publishing the ideas on social media and other platforms." To="/team/content" />
                 <EFPCard Image={Image} Title="Machine Learning" Content="Implementation of appropriate Machine learning (ML) algorithms which are capable of deep learning and making predictions." To="/team/machine-learning" />
-                <EFPCard Image={Image} Title="Operations" Content="The Department of Operations is in charge of making sure a company's processes and resources are working efficiently to produce and deliver products or services to members. It helps the company run smoothly and meet the needs of its members." To="/team/operations" />
+                <EFPCard Image={Image} Title="Operations" Content="The Department of Operations is in charge of making sure a company's processes and resources are working efficiently to produce and deliver products or services to members." To="/team/operations" />
             </div>
         </section>
     )
