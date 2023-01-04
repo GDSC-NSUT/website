@@ -1,6 +1,6 @@
 import React from 'react';
 import TeamCard from "./TeamCard";
-import Departments from "./Departments.json";
+import Departments from "./Departments";
 
 
 export default function DepartmentUtility(props) {
@@ -19,7 +19,7 @@ export default function DepartmentUtility(props) {
                       <TeamCard key={departmentLead.id}
                             memberImage={departmentLead.memberImage}
                             memberName={departmentLead.memberName}
-                            memberStatus={departmentLead.memberStatus}
+                            memberStatus="Department Lead"
                             memberAbout={departmentLead.memberAbout}
                             memberSocialLinkedinPath={departmentLead.memberSocialLinkedinPath}
                             memberSocialGithubPath={departmentLead.memberSocialGithubPath}
@@ -41,7 +41,7 @@ export default function DepartmentUtility(props) {
                   <TeamCard key={member.id}
                             memberImage={member.memberImage}
                             memberName={member.memberName}
-                            memberStatus={member.memberStatus}
+                            memberStatus="Member"
                             memberAbout={member.memberAbout}
                             memberSocialLinkedinPath={member.memberSocialLinkedinPath}
                             memberSocialGithubPath={member.memberSocialGithubPath}
