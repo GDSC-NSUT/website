@@ -28,7 +28,7 @@ const CoreMembers = [
     },
     {
         "id": 4,
-        "memberImage": require("../../Assets/Images/member-images/core/Ronak Gadara+operations - Ronak Patel.jpg"),
+        "memberImage": require("../../Assets/Images/member-images/core/Ronak Gadara operations - Ronak Patel.jpg"),
         "memberName": "Ronak Gadara ",
         "memberAbout": "DATA SCIENCE-MACHINE LEARNING-Research Intern@IIT R\n",
         "memberSocialLinkedinPath": "https://www.linkedin.com/in/ronak-patel-8095b2215",
