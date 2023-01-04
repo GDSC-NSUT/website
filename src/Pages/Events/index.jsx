@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Card from "./card";
+import Card from "./Card";
 import "./events.css";
 import { useState } from "react";
 import upcomingEvents from "./events_upcoming.json";
@@ -49,16 +49,16 @@ const Events = () => {
   }, [])
 
   const data = [
-    { key: 1, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" }, 
-    { key: 2, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" }, 
-    { key: 3, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" } 
+    { key: 1, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" },
+    { key: 2, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" },
+    { key: 3, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" }
   ];
 
   return (
     <>
       <main>
         <div className={'carousel-container'}>
-          <Carousel data={ data } />
+          <Carousel data={data} />
         </div>
         <div className={'search-container'}>
           <div className="search-wrapper">
@@ -91,12 +91,12 @@ const Events = () => {
           <div className="event-cards">
             {
               events === "U" ?
-              upcomingEvents.map(event => {
-                return <Card key={event.id} event={event} showEventModal={showEventModal} />
-              }) :
-              pastEvents.map(event => {
-                return <Card key={event.id} event={event} showEventModal={showEventModal} />
-              })
+                upcomingEvents.map(event => {
+                  return <Card key={event.id} event={event} showEventModal={showEventModal} />
+                }) :
+                pastEvents.map(event => {
+                  return <Card key={event.id} event={event} showEventModal={showEventModal} />
+                })
             }
           </div>
         </div>
