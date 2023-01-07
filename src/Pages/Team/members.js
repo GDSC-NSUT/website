@@ -9,6 +9,15 @@ const CoreMembers = [
         "memberSocialMailPath": "archit.singh.ug20@nsut.ac.in"
     },
     {
+        "id": 5,
+        "memberImage": "./assets/member-images/core/aaryak.jpeg",
+        "memberName": "Aaryak Garg",
+        "memberAbout": "I am Aaryak Garg",
+        "memberSocialLinkedinPath": "https://www.linkedin.com/in/aaryak-garg-7b202b184",
+        "memberSocialGithubPath": "https://github.com/darthfire",
+        "memberSocialMailPath": "aaryak.ug20@nsut.ac.in"
+    },
+    {
         "id": 2,
         "memberImage": "./assets/member-images/core/shubham.jpeg",
         "memberName": "Shubham Rana",
@@ -19,16 +28,16 @@ const CoreMembers = [
     },
     {
         "id": 3,
-        "memberImage": "./assets/member-images/core/akshit.jpeg",
+        "memberImage": "./assets/member-images/core/akshat.jpg",
         "memberName": "Akshit Lalit",
-        "memberAbout": "Curious individual targetting common day-to-day problems and solving them with my technical know- how. I create mobile apps using frameworks like flutter using strong logic building developed over time\n with Data Structures and Algorithms in C++. Love to explore new opportunities and help my peers, teaching me subtly in the process.",
+        "memberAbout": "I am a problem-solver with technical skills, particularly in creating mobile apps with Flutter and C++. I am always looking for new opportunities and enjoy helping and learning from others.",
         "memberSocialLinkedinPath": "https://www.linkedin.com/in/akshit-lalit",
         "memberSocialGithubPath": "https://github.com/Akshit1903",
         "memberSocialMailPath": "akshit.lalit@gmail.com"
     },
     {
         "id": 4,
-        "memberImage": "./assets/member-images/core/ronak.jpeg",
+        "memberImage": "./assets/member-images/core/ronak.jpg",
         "memberName": "Ronak Gadara ",
         "memberAbout": "DATA SCIENCE-MACHINE LEARNING-Research Intern@IIT R\n",
         "memberSocialLinkedinPath": "https://www.linkedin.com/in/ronak-patel-8095b2215",

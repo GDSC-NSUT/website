@@ -12,16 +12,19 @@ const images = [
 export function EFPCard(props) {
     const { Image, Title, Content, To } = props;
     return (
-        <div className="home-card">
-            <div style={{ backgroundImage: `url("${Image}")` }} className="img"></div>
-            <div className="title">{Title}</div>
-            <div className="content">{Content}</div>
-            <div className="arrow">
-                <Link to={To}>
-                    <VscArrowRight />
-                </Link>
+        <Link to={To}>
+            <div className="home-card">
+                <div style={{ backgroundImage: `url("${Image}")` }} className="img"></div>
+                <div className="title">{Title}</div>
+                <div className="content">{Content}</div>
+                <div className="spacer" style={{ flex: 1 }}></div>
+                <div className="arrow">
+                    <Link to={To}>
+                        <VscArrowRight />
+                    </Link>
+                </div>
             </div>
-        </div>
+        </Link>
     );
 }
 

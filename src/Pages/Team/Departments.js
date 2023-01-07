@@ -7,7 +7,7 @@ const Departments = {
         "departmentLeads": [
             {
                 "id": 39,
-                "memberImage": require("../../Assets/Images/member-images/web-development/Aryav Bhola + WEB DEVELOPMENT - Aryav Bhola.jpeg"),
+                "memberImage": "/assets/member-images/web-development/aryav.jpeg",
                 "memberName": "Aryav Bhola",
                 "memberAbout": "Hello, my name is Aryav. I love learning about new technologies. I constantly find a way to delight in web development. I am a freelancer at Upwork as well.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/aryavbhola/",
@@ -18,7 +18,7 @@ const Departments = {
         "members": [
             {
                 "id": 3,
-                "memberImage": require("../../Assets/Images/member-images/web-development/shutikshan madhur+webd - shutikshan madhur.jpg"),
+                "memberImage": "/assets/member-images/web-development/shutikshan.jpg",
                 "memberName": "Shutikshan madhur",
                 "memberAbout": "hey everyone myself shutikshan madhur ,I  am an ece undergrad ,I love to work on web2 and web3 technologies .",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/shutikshan-madhur-325b59201/",
@@ -27,8 +27,8 @@ const Departments = {
             },
             {
                 "id": 7,
-                "memberImage": require("../../Assets/Images/member-images/web-development/pic - VAISHALI AGGARWAL.jpeg"),
-                "memberName": "Vaishali Aggarwal ",
+                "memberImage": "/assets/member-images/web-development/vaishali.jpeg",
+                "memberName": "Vaishali Aggarwal",
                 "memberAbout": "I am Vaishali Aggarwal ,currently pursuing B.Tech(IT) from NSUT. I am a web developer with fluency in ReactJS, HTML, CSS and Javascript. I am passionate about learning new things.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/vaishali-aggarwal-6041b9229/",
                 "memberSocialGithubPath": "https://github.com/VaishaliAgg14",
@@ -36,7 +36,7 @@ const Departments = {
             },
             {
                 "id": 15,
-                "memberImage": require("../../Assets/Images/member-images/web-development/IMG-20220813-WA0056 - Dhruv Deora.jpeg"),
+                "memberImage": "/assets/member-images/web-development/deora.jpeg",
                 "memberName": "Dhruv Deora",
                 "memberAbout": "Heya Guyss ! MERN stack web dev, ML/AI Learner and a Competitive Programmer. Like researching in financial space and financial management. Anime and Manga Reader, Peak Piece Lover",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/dhruv-deora-4b13821a1/",
@@ -45,8 +45,8 @@ const Departments = {
             },
             {
                 "id": 31,
-                "memberImage": require("../../Assets/Images/member-images/web-development/WhatsApp Image 2022-12-17 at 9.41.26 PM - Nabani Chowdhury.jpeg"),
-                "memberName": "Nabani Chowdhury ",
+                "memberImage": "/assets/member-images/web-development/nabani.jpeg",
+                "memberName": "Nabani Chowdhury",
                 "memberAbout": "",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/nabanichowdhury",
                 "memberSocialGithubPath": "https://github.com/nabanichowdhury",
@@ -54,7 +54,7 @@ const Departments = {
             },
             {
                 "id": 34,
-                "memberImage": require("../../Assets/Images/member-images/web-development/Rishabh-Web - Rishabh Kumar.jpeg"),
+                "memberImage": "/assets/member-images/web-development/rishabh.jpeg",
                 "memberName": "Rishabh Kumar Choudhary",
                 "memberAbout": "I am a web developer and competitive programmer. I learn something new everyday.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/rishabhxchoudhary/",
@@ -62,17 +62,8 @@ const Departments = {
                 "memberSocialMailPath": "rishabh.choudhary.ug21@nsut.ac.in"
             },
             {
-                "id": 35,
-                "memberImage": require("../../Assets/Images/member-images/web-development/IMG_20220224_201317 - Shutikshan Madhur.jpg"),
-                "memberName": "Shutikshan madhur",
-                "memberAbout": "",
-                "memberSocialLinkedinPath": "https://www.linkedin.com/in/shutikshan-madhur-325b59201/",
-                "memberSocialGithubPath": "https://github.com/Madhur1808",
-                "memberSocialMailPath": "shutikshan.madhur.ug20@nsut.ac.in"
-            },
-            {
                 "id": 36,
-                "memberImage": require("../../Assets/Images/member-images/web-development/Ananya_web_development - Ananya Choudhary.jpg"),
+                "memberImage": "/assets/member-images/web-development/ananya.jpg",
                 "memberName": "Ananya Choudhary",
                 "memberAbout": "A computer science sophomore fascinated by technology and enthusiastic about web designing. ",
                 "memberSocialLinkedinPath": "linkedin.com/in/ananya-choudhary-69b4ba224/",
@@ -86,29 +77,38 @@ const Departments = {
         "urlCode": "app-development",
         "name": "App Development",
         "heroImage": "https://i.gifer.com/Owm.gif",
-        "departmentLeads": [],
+        "departmentLeads": [{
+            "id": 13,
+            "memberImage": "/assets/member-images/app-development/aneesh.jpeg",
+            "memberName": "Aneesh Gupta",
+            "memberAbout": "Hey there..I am a Native(Android) + Flutter developer. I love to contribute and solve problems on various platforms. Apart from my techstack, I also love to paint my thoughts on canvas [have received national award from H'ble President of India for the same :)], ",
+            "memberSocialLinkedinPath": "https://www.linkedin.com/in/aneesh-gupta-b819781b7/",
+            "memberSocialGithubPath": "https://github.com/aneeshgupta25",
+            "memberSocialMailPath": "aneeshgupta2512@gmail.com"
+        },
+        {
+            "id": 32,
+            "memberImage": "/assets/member-images/app-development/binit.jpg",
+            "memberName": "Binit Gupta",
+            "memberAbout": "I am ICE Sophomore who is a tech and sports enthusiasts.",
+            "memberSocialLinkedinPath": "https://www.linkedin.com/in/binit-gupta",
+            "memberSocialGithubPath": "https://github.com/guptabinit",
+            "memberSocialMailPath": "binitguptapro@gmail.com"
+        }],
         "members": [
             {
                 "id": 10,
-                "memberImage": require("../../Assets/Images/member-images/app-development/ayush_yadav_appdev - AYUSH YADAV.jpeg"),
+                "memberImage": "/assets/member-images/app-development/ayush.jpeg",
                 "memberName": "Ayush Yadav",
                 "memberAbout": "My name is Ayush Yadav and I am in the app development department at GDSC.I love playing sports, and I enjoy using my tech skills to contribute to the exciting technological advancements that happen every day. You can contact me at any time for great project and tech ideas.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/ayush-yadav-6a712421a/",
                 "memberSocialGithubPath": "https://github.com/ayyysh04",
                 "memberSocialMailPath": "ayush.yadav.ug21@nsut.ac.in"
             },
-            {
-                "id": 13,
-                "memberImage": require("../../Assets/Images/member-images/app-development/Aneesh Gupta APP DEV - Aneesh Gupta.jpeg"),
-                "memberName": "ANEESH GUPTA",
-                "memberAbout": "Hey there..I am a Native(Android) + Flutter developer. I love to contribute and solve problems on various platforms. Apart from my techstack, I also love to paint my thoughts on canvas [have received national award from H'ble President of India for the same :)], ",
-                "memberSocialLinkedinPath": "https://www.linkedin.com/in/aneesh-gupta-b819781b7/",
-                "memberSocialGithubPath": "https://github.com/aneeshgupta25",
-                "memberSocialMailPath": "aneeshgupta2512@gmail.com"
-            },
+
             {
                 "id": 16,
-                "memberImage": require("../../Assets/Images/member-images/app-development/Samman_Sarkar-App_Dev - Samman Sarkar.jpeg"),
+                "memberImage": "/assets/member-images/app-development/samman.jpeg",
                 "memberName": "Samman Sarkar",
                 "memberAbout": "App developer and competitive programmer.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/samman-sarkar-412973157/",
@@ -117,7 +117,7 @@ const Departments = {
             },
             {
                 "id": 17,
-                "memberImage": require("../../Assets/Images/member-images/app-development/Shubhveer+app_dev - Shubh Chaudhary.jpg"),
+                "memberImage": "/assets/member-images/app-development/shubhveer.jpg",
                 "memberName": "Shubhveer Singh Chaudhary ",
                 "memberAbout": "Hi I'm shubhveer , I'm interested in app, web dev , ai and creative illustration and 3d videos.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/shubh-chaudhary-311673141",
@@ -126,21 +126,12 @@ const Departments = {
             },
             {
                 "id": 22,
-                "memberImage": require("../../Assets/Images/member-images/app-development/KanishkMewal_AppDevelopment - KANISHK MEWAL.jpg"),
+                "memberImage": "/assets/member-images/app-development/kanishk.jpg",
                 "memberName": "Kanishk Mewal",
                 "memberAbout": "Never thought my curiosity for tech would bring me this far, I started with Animation back in 2012 then switched to Game Development in 2013 then 3D Modelling in the same year followed by Web Development in 2016 then ML in 2020 along with App Development in 2021.Now that I've tried most of them, I feel app development is the one I like the most and I'm looking forward to make a career in it. Yet there's a lot more to learn on this journey ahead.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/kanishk-mewal-56194a1b0",
                 "memberSocialGithubPath": "https://github.com/Kanishk-Mewal",
                 "memberSocialMailPath": "Office.kanishkm@gmail.com"
-            },
-            {
-                "id": 32,
-                "memberImage": require("../../Assets/Images/member-images/app-development/IMG_20221217_215429 - Binit Gupta.jpg"),
-                "memberName": "Binit Gupta",
-                "memberAbout": "I am ICE Sophomore who is a tech and sports enthusiasts.",
-                "memberSocialLinkedinPath": "https://www.linkedin.com/in/binit-gupta",
-                "memberSocialGithubPath": "https://github.com/guptabinit",
-                "memberSocialMailPath": "binitguptapro@gmail.com"
             }
         ]
     },
@@ -153,7 +144,7 @@ const Departments = {
         "members": [
             {
                 "id": 19,
-                "memberImage": require("../../Assets/Images/member-images/competititive-programming/IMG-20220823-WA0000 - Aditya Mangal.jpg"),
+                "memberImage": "/assets/member-images/competititive-programming/aditya.jpg",
                 "memberName": "Aditya Mangal",
                 "memberAbout": "",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/aditya-mangal-a50052203",
@@ -162,7 +153,7 @@ const Departments = {
             },
             {
                 "id": 24,
-                "memberImage": require("../../Assets/Images/member-images/competititive-programming/HarshilJain CP - Harshil Jain.jpg"),
+                "memberImage": "/assets/member-images/competititive-programming/harshil.jpg",
                 "memberName": "Harshil Jain",
                 "memberAbout": "",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/harshil-jain-b7831a1a0/",
@@ -171,7 +162,7 @@ const Departments = {
             },
             {
                 "id": 25,
-                "memberImage": require("../../Assets/Images/member-images/competititive-programming/Ayush Joshi+Competitive Programming - AYUSH JOSHI.jpg"),
+                "memberImage": "/assets/member-images/competititive-programming/ayush.jpg",
                 "memberName": "Ayush Joshi",
                 "memberAbout": "",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/ayush-joshi-46304422b/",
@@ -188,7 +179,7 @@ const Departments = {
         "departmentLeads": [
             {
                 "id": 30,
-                "memberImage": require("../../Assets/Images/member-images/content/GauriDubey-Content - GAURI DUBEY.JPG"),
+                "memberImage": "/assets/member-images/content/gauri.jpg",
                 "memberName": "Gauri Dubey",
                 "memberAbout": "Hello, I'm Gauri, a student majoring in computer science at NSUT. I am a part time coder, who enjoys web development and machine learning, and a full time procrastinator, always looking for an easier way out of problems.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/gauri-dubey-73153622a/",
@@ -199,8 +190,8 @@ const Departments = {
         "members": [
             {
                 "id": 18,
-                "memberImage": require("../../Assets/Images/member-images/content/amal-csda - Amal Kumar.jpg"),
-                "memberName": "Amal Kumar ",
+                "memberImage": "/assets/member-images/content/amal.jpg",
+                "memberName": "Amal Kumar",
                 "memberAbout": "Exploring and analysing life. Always been a deep thinker, I always love to spend time with myself pondering,better yet have someone with a similar vibe.Have a wide range of interests from music to reading to fitness to coding.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/amal-profile/",
                 "memberSocialGithubPath": "https://github.com/moonlumi",
@@ -208,8 +199,8 @@ const Departments = {
             },
             {
                 "id": 21,
-                "memberImage": require("../../Assets/Images/member-images/content/Saumya - Saumya Karnwal.jpg"),
-                "memberName": "Saumya karnwal ",
+                "memberImage": "/assets/member-images/content/saumya.jpg",
+                "memberName": "Saumya karnwal",
                 "memberAbout": "",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/saumya-karnwal-34a1a821b/",
                 "memberSocialGithubPath": "https://github.com/SaumyaKarnwal",
@@ -217,7 +208,7 @@ const Departments = {
             },
             {
                 "id": 26,
-                "memberImage": require("../../Assets/Images/member-images/content/Kabir kishore_ content - KABIR KISHORE.png"),
+                "memberImage": "/assets/member-images/content/kabir.png",
                 "memberName": "Kabir kishore",
                 "memberAbout": "Hey there! Iu00e2u20acu2122m a sophomore here at nsut ",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/kabir-kishore-85372920a",
@@ -234,7 +225,7 @@ const Departments = {
         "departmentLeads": [
             {
                 "id": 11,
-                "memberImage": require("../../Assets/Images/member-images/design/Utkarsh Maurya Design Deptt - Utkarsh Maurya.png"),
+                "memberImage": "/assets/member-images/design/utkarsh.png",
                 "memberName": "Utkarsh Maurya",
                 "memberAbout": "Hi, I am Utkarsh. I am a designer and Developer. I have knack for creativity and love new technologies.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/utkarsh-maurya-962a65210/",
@@ -243,8 +234,8 @@ const Departments = {
             },
             {
                 "id": 33,
-                "memberImage": require("../../Assets/Images/member-images/design/PulkitBatra_Design - Pulkit Batra.jpeg"),
-                "memberName": "Pulkit Batra ",
+                "memberImage": "/assets/member-images/design/pulkit.jpeg",
+                "memberName": "Pulkit Batra",
                 "memberAbout": "Developer who can design",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/pulkitbxtra",
                 "memberSocialGithubPath": "https://github.com/PulkitBxtra",
@@ -254,7 +245,7 @@ const Departments = {
         "members": [
             {
                 "id": 5,
-                "memberImage": require("../../Assets/Images/member-images/design/JaskaranSinghChhabra + Design - Jaskaran Singh Chhabra.jpg"),
+                "memberImage": "/assets/member-images/design/jaskaran.jpg",
                 "memberName": "Jaskaran Singh Chhabra",
                 "memberAbout": "",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/jaskaran-singh-chhabra-3bba2521b",
@@ -263,7 +254,7 @@ const Departments = {
             },
             {
                 "id": 12,
-                "memberImage": require("../../Assets/Images/member-images/design/Kumar Gaurav Madhurj Design - Kumar Gaurav.png"),
+                "memberImage": "/assets/member-images/design/kumar.png",
                 "memberName": "KUMAR GAURAV MADHURJ",
                 "memberAbout": "Hi! I'm Gaurav, My interest lies in the field of Design-UI/UX, Web Development and Data Structures and Algorithms. ",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/krgauravm/",
@@ -272,7 +263,7 @@ const Departments = {
             },
             {
                 "id": 23,
-                "memberImage": require("../../Assets/Images/member-images/design/akshana_designer - AKSHANA PRASAD.JPG"),
+                "memberImage": "/assets/member-images/design/akshana.jpg",
                 "memberName": "Akshana Prasad",
                 "memberAbout": "Enjoys Designing stuff and also love photography ",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/akshana-prasad-02304722b",
@@ -286,20 +277,30 @@ const Departments = {
         "urlCode": "machine-learning",
         "name": "Machine Learning",
         "heroImage": "https://i.gifer.com/Owm.gif",
-        "departmentLeads": [],
-        "members": [
+        "departmentLeads": [
+            {
+                "id": 20,
+                "memberImage": "/assets/member-images/machine-learning/chaitanya.jpeg",
+                "memberName": "Chaitanya Giri",
+                "memberAbout": "Full Stack Developer | AI and ML | Learning for earning :)",
+                "memberSocialLinkedinPath": "https://www.linkedin.com/in/chaitanya-giri",
+                "memberSocialGithubPath": "https://github.com/Chaitanya134",
+                "memberSocialMailPath": "chaitanyagiri2@gmail.com "
+            },
             {
                 "id": 2,
-                "memberImage": require("../../Assets/Images/member-images/machine-learning/Poojan_ML - POOJAN PRANAV VACHHARAJANI.jpg"),
+                "memberImage": "/assets/member-images/machine-learning/poojan.jpg",
                 "memberName": "Poojan Vachharajani",
-                "memberAbout": "TopCoder Data-Science freelancer (10+ projects fulfilled)AIRG-NSUT ResearcherKaggle Notebooks ExpertGDSC ML-Cloud",
+                "memberAbout": "TopCoder Data-Science freelancer (10+ projects fulfilled), AIRG-NSUT Researcher, Kaggle Notebooks Expert, GDSC ML-Cloud",
                 "memberSocialLinkedinPath": "https://in.linkedin.com/in/poojan-vachharajani",
                 "memberSocialGithubPath": "https://github.com/pj-mathematician",
                 "memberSocialMailPath": "pjmathematician@gmail.com"
             },
+        ],
+        "members": [
             {
                 "id": 8,
-                "memberImage": require("../../Assets/Images/member-images/machine-learning/ArnavGupta_ML - Arnav Gupta.jpg"),
+                "memberImage": "/assets/member-images/machine-learning/arnav.jpg",
                 "memberName": "Arnav Gupta",
                 "memberAbout": "Just a guy trying to find what I want to do in this wonderful tech world full of AI and neural stuff.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/arnav-gupta-278a67226",
@@ -308,7 +309,7 @@ const Departments = {
             },
             {
                 "id": 9,
-                "memberImage": require("../../Assets/Images/member-images/machine-learning/Harshit_Kumar_ML+Cloud - Harshit Kumar.jpeg"),
+                "memberImage": "/assets/member-images/machine-learning/harshit.jpeg",
                 "memberName": "Harshit Kumar ",
                 "memberAbout": "Interested in machine learning and deep learning, particularly natural language processing, as a student. Enjoys experimenting with new technologies and taking part in various hackathons. Dedicated to competing on Kaggle and other competitions. In my free time, you can find me bing-watching something or hanging out.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/harshit-kumar-/",
@@ -317,7 +318,7 @@ const Departments = {
             },
             {
                 "id": 14,
-                "memberImage": require("../../Assets/Images/member-images/machine-learning/Laksshay Sehrawat_ML+Cloud - Laksshay Sehrawat.jpg"),
+                "memberImage": "/assets/member-images/machine-learning/lakshay.jpg",
                 "memberName": "Laksshay Sehrawat",
                 "memberAbout": "An ML enthusiast, budding developer and a huge geek. And yes my name has an intentional double s in it ;)",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/laksshay-sehrawat-20b0a9220",
@@ -325,17 +326,8 @@ const Departments = {
                 "memberSocialMailPath": "laksshaysehrawat28@gmail.com"
             },
             {
-                "id": 20,
-                "memberImage": require("../../Assets/Images/member-images/machine-learning/Chaitanya Giri (CSDS) - Chaitanya Giri.jpeg"),
-                "memberName": "Chaitanya Giri",
-                "memberAbout": "Full Stack Developer | AI and ML | Learning for earning :)",
-                "memberSocialLinkedinPath": "https://www.linkedin.com/in/chaitanya-giri",
-                "memberSocialGithubPath": "https://github.com/Chaitanya134",
-                "memberSocialMailPath": "chaitanyagiri2@gmail.com "
-            },
-            {
                 "id": 28,
-                "memberImage": require("../../Assets/Images/member-images/machine-learning/299 - Anandiya Sheel Diwan (A.S.D).JPG"),
+                "memberImage": "/assets/member-images/machine-learning/anandiya.jpg",
                 "memberName": "Anandiya Sheel Diwan",
                 "memberAbout": "",
                 "memberSocialLinkedinPath": "",
@@ -344,7 +336,7 @@ const Departments = {
             },
             {
                 "id": 37,
-                "memberImage": require("../../Assets/Images/member-images/machine-learning/Parth ML - PARTH MAHAJAN.jpg"),
+                "memberImage": "/assets/member-images/machine-learning/paarth.jpg",
                 "memberName": "Parth Mahajan",
                 "memberAbout": "Sophomore.  I Talk Tech, Business and entrepreneurship.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/parth-mahajan-0801b3223/",
@@ -353,7 +345,7 @@ const Departments = {
             },
             {
                 "id": 38,
-                "memberImage": require("../../Assets/Images/member-images/machine-learning/Sneha Aggarwal - ML - SNEHA AGGARWAL.jpeg"),
+                "memberImage": "/assets/member-images/machine-learning/sneha.jpeg",
                 "memberName": "Sneha Aggarwal",
                 "memberAbout": "CSAI sophomore  I'm a business and tech enthusiast  Love to code and read.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/aggarwalsneha/",
@@ -370,7 +362,7 @@ const Departments = {
         "departmentLeads": [
             {
                 "id": 27,
-                "memberImage": require("../../Assets/Images/member-images/operations/Shruti Arya , Operations - SHRUTI ARYA.jpg"),
+                "memberImage": "/assets/member-images/operations/shruti.jpg",
                 "memberName": "Shruti Arya",
                 "memberAbout": "Im an undergraduate student at Netaji Subhas University of Technology, majoring in Electronics and Communication Engineering.I am a budding tech enthusiast who is looking forward to picking up new projects in the field and also open to exploring new opportunities.I am a pretty enthusiastic, motivated and confident person who does her work with utmost dignity and with full conviction having a zeal to learn new things.My interests outside academics lie in travelling, singing, public speaking, photography and astronomy.",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/shruti-arya-79372622a/",
@@ -381,7 +373,7 @@ const Departments = {
         "members": [
             {
                 "id": 4,
-                "memberImage": require("../../Assets/Images/member-images/operations/Md. Sami Khan Operations - Sami Khan.jpg"),
+                "memberImage": "/assets/member-images/operations/sami.jpg",
                 "memberName": "Md. Sami Khan ",
                 "memberAbout": "",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/md-sami-khan-2b7932222",
@@ -390,7 +382,7 @@ const Departments = {
             },
             {
                 "id": 6,
-                "memberImage": require("../../Assets/Images/member-images/operations/Gayatri Gupta Operations - GAYATRI GUPTA.jpeg"),
+                "memberImage": "/assets/member-images/operations/gayatri.jpeg",
                 "memberName": "Gayatri Gupta",
                 "memberAbout": "Fervor for solving challenging problems led me to pursue AI in Computer Science. The stimulating environment that the evolving domain of Computer Science provides makes me passionate towards it. I am highly organised and detail-oriented. I am a keen learner with persistence. I am an empathetic listener and a team player. I can communicate and convey my point of view to different audience. ",
                 "memberSocialLinkedinPath": "https://www.linkedin.com/in/gayatri-gupta-19429322a/",

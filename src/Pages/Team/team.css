@@ -99,7 +99,7 @@
     text-overflow: ellipsis;
     -webkit-line-clamp: var(--lines);
     line-clamp: var(--lines);
-   -webkit-box-orient: vertical;
+    -webkit-box-orient: vertical;
 }
 
 .team-card .overlay .social {
@@ -122,7 +122,7 @@
 .team-card .overlay .social .social-icons {
     width: 30px;
     height: 30px;
-    
+
 }
 
 .team-card .overlay .social .social-icons.linkedin {
@@ -132,6 +132,7 @@
     border-radius: 50%;
     color: rgb(66, 133, 244);
 }
+
 .team-card .overlay .social .social-icons.linkedin>* {
     transform: scale(1.7);
 }
@@ -157,7 +158,7 @@
     color: rgb(66, 133, 244);
 }
 
-.team-section.efp-section > .title {
+.team-section.efp-section>.title {
     font-size: 32px;
     text-align: center;
     margin-bottom: 30px;
@@ -174,11 +175,12 @@
 .department-card-container .home-card {
     width: 280px;
     margin: 15px auto 10px;
+    height: 460px;
 }
 
-.department-card-container .home-card img {
-    height: 150px;
-    width: 150px;
+.department-card-container .home-card .img {
+    height: auto;
+    width: 190px;
     margin: 0 auto;
 }
 
@@ -226,8 +228,24 @@
     padding: 70px 95px;
     row-gap: 50px;
     column-gap: 60px;
+}
+
+.department-wrap {
     max-width: 1620px;
     margin: auto;
+}
+
+.small{
+
+}
+
+
+
+.small .department-members {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    max-width: 1620px;
 }
 
 .department-members .static img.member-image {
@@ -251,6 +269,13 @@
     height: 280px;
 }
 
+@media screen and (max-width: 1150px) {
+    .small .department-members {
+        column-gap: 25px;
+    }
+}
+
+
 @media screen and (max-width: 1000px) {
     .department-page .right-section img {
         display: none;
@@ -258,27 +283,35 @@
 }
 
 @media screen and (max-width: 800px) {
+
     .team-hero-section .left-container {
         width: 100%;
         margin-top: 40px;
         text-align: center;
     }
+
     .team-hero-section .right-container {
         display: none;
     }
+
     .department-page .left-section .title {
         text-align: center;
     }
+
     .department-page .left-section .sub-title {
         text-align: center;
     }
-    .department-page .department-hero-section  {
+
+    .department-page .department-hero-section {
         padding: 70px 10px;
         justify-content: center;
     }
+
     .department-page .department-members {
         justify-items: center;
+        justify-content: center;
     }
+
     .mentor-card-container {
         justify-content: center;
     }
@@ -288,29 +321,37 @@
     .team-section.efp-section {
         padding: 0 !important;
     }
+
     .team-section .home-card {
         margin-left: 0;
         margin-right: 0;
     }
+
     .team-section .home-card .title {
         font-size: 20px;
     }
+
     .team-section .home-card .content {
         font-size: 14px;
     }
+
     .team-hero-section .left-container .title {
         font-size: 28px;
     }
+
     .team-hero-section .left-container .content {
         font-size: 16px;
     }
+
     .team-hero-section {
         padding-left: 0;
         padding-right: 0;
     }
-    .team-section.efp-section > .title {
+
+    .team-section.efp-section>.title {
         font-size: 28px;
     }
+
     .department-page .department-members {
         padding: 70px 10px;
     }
