@@ -5,7 +5,7 @@ export default function Feed() {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
     const getPosts = async () => {
-      const res = await fetch("https://graph.instagram.com/me/media?access_token=IGQVJYcWZAPenhVUF94MU5zZAzdTaWt0RHEwWXBCcUJzWUJTZA3p4UWt1YVpOLXNoRllFa1hvZA3YzekZArVmZAnNlNlQTFjYjRlZAXVmaDlNTmZAmbnJ0YnFmS2ltN2txOHB2Y1NYaVdwUmd3&fields=caption,id,media_type,media_url,permalink,thumbnail_url,timestamp");
+      const res = await fetch("https://graph.instagram.com/me/media?access_token=IGQVJXYmVqc0sxNEM2V3hPbVlqLWZA3TUFIQnBEeS0wYW16UUtZAWWRxajRRcW80b01MSGVEZAkI4OUJsN0M0NVFhdkdVWXF5OGhmRVRqSmx3ejdpaG15ZA3lvZA3hoc2FpVHBoSXhtYVhwRDY1eW1hNXpZAeQZDZD&fields=caption,id,media_type,media_url,permalink,thumbnail_url,timestamp");
       const data = await res.json();
       setPosts(data.data);
       console.log(data.data);
