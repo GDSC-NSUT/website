@@ -46,9 +46,9 @@ export default function EFPSection() {
         <section className="home-section efp-section">
             <div className="wrapper">
                 <div className="home-card-container">
-                    <EFPCard Image={images[0]} Title="Events" To="/events" />
-                    <EFPCard Image={images[1]} Title="Feed" To="/feed" />
-                    <EFPCard Image={images[2]} Title="Projects" To="/projects" />
+                    <EFPCard Image={images[0]} Title="Events" To="/events" Content="We host multiple events throughout the year such as Solution Challenge, Android Jams, Speaker sessions and much more." />
+                    <EFPCard Image={images[1]} Title="Feed" To="/feed" Content="Have a sneak peak at our GDSC's Experience on our socials and discover the power of Technology and Collaboration"/>
+                    <EFPCard Image={images[2]} Title="Projects" To="/projects" Content="Our developers have contributed to many open source development projects through events such as GSOC, HacktoberFest etc." />
                 </div>
             </div>
         </section>
