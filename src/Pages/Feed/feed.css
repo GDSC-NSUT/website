@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 20px 100px;
-    gap: 40px 40px;
+    gap: 80px 40px;
 }
 
 .feed img {
@@ -47,6 +47,14 @@
     transform: scale(1.02);
 }
 
+.caption {
+    font-weight: 500;
+    line-height: 15px;
+    font-size: 1.5rem;
+    width: 60%;
+    padding: 10px;
+}
+
 @media (max-width: 1100px) {
     .feeds {
         grid-template-columns: 1fr 1fr 1fr;
@@ -58,6 +66,7 @@
         text-align: center;
         margin-left: 0;
     }
+
     .feed-section .content {
         margin-left: 0;
         text-align: center;
@@ -76,6 +85,8 @@
     .feeds {
         grid-template-columns: 1fr;
         padding: 20px 70px;
-        gap: 40px;
+        gap: 60px;
+    }.caption{
+        font-size: 1rem;
     }
 }
