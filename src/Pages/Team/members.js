@@ -47,7 +47,38 @@ const CoreMembers = [
         "memberSocialLinkedinPath": "https://www.linkedin.com/in/shruti-arya-79372622a/",
         "memberSocialGithubPath": "https://github.com/shrutiarya12",
         "memberSocialMailPath": "shruti.arya.ug21@nsut.ac.in"
-    }
+    },
+    {
+        
+        "id": 73,
+        "memberImage": "/assets/member-images/rishabh.jpg",
+        "memberName": "Rishabh Choudhary",
+        "memberAbout": "",
+        "memberSocialLinkedinPath": "https://www.linkedin.com/in/rishabhxchoudhary/",
+        "memberSocialGithubPath": "https://github.com/rishabhxchoudhary",
+        "memberSocialMailPath": "rishabh.choudhary.ug21@nsut.ac.in"
+    },
+    {
+        
+        "id": 73,
+        "memberImage": "/assets/member-images/rishabh.jpg",
+        "memberName": "Rishabh Choudhary",
+        "memberAbout": "",
+        "memberSocialLinkedinPath": "https://www.linkedin.com/in/rishabhxchoudhary/",
+        "memberSocialGithubPath": "https://github.com/rishabhxchoudhary",
+        "memberSocialMailPath": "rishabh.choudhary.ug21@nsut.ac.in"
+    },
+    {
+        
+        "id": 73,
+        "memberImage": "/assets/member-images/rishabh.jpg",
+        "memberName": "Rishabh Choudhary",
+        "memberAbout": "",
+        "memberSocialLinkedinPath": "https://www.linkedin.com/in/rishabhxchoudhary/",
+        "memberSocialGithubPath": "https://github.com/rishabhxchoudhary",
+        "memberSocialMailPath": "rishabh.choudhary.ug21@nsut.ac.in"
+    },
+    
 ]
 
 export default CoreMembers;
