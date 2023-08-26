@@ -1,6 +1,6 @@
 .feeds {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 20px 100px;
     gap: 40px 40px;
 }

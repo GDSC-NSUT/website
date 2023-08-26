@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./feed.css";
+import events from "./Feed_Event.json"
+import FeedCard from "../Feed/feed";
 
 export default function Feed() {
   const [posts, setPosts] = useState([]);
@@ -7,7 +9,7 @@ export default function Feed() {
     const getPosts = async () => {
       const res = await fetch("https://graph.instagram.com/me/media?access_token=IGQVJXYmVqc0sxNEM2V3hPbVlqLWZA3TUFIQnBEeS0wYW16UUtZAWWRxajRRcW80b01MSGVEZAkI4OUJsN0M0NVFhdkdVWXF5OGhmRVRqSmx3ejdpaG15ZA3lvZA3hoc2FpVHBoSXhtYVhwRDY1eW1hNXpZAeQZDZD&fields=caption,id,media_type,media_url,permalink,thumbnail_url,timestamp");
       const data = await res.json();
-      setPosts(data.data);
+      setPosts(data.data || events);
       console.log(data.data);
     }
     getPosts();
@@ -20,11 +22,7 @@ export default function Feed() {
         <div className="feeds">
           {
             posts.map((post) => (
-              <div className="feed">
-                <a href={post.permalink} target="_blank" rel="noreferrer" >
-                  <img src={post.media_type !== "VIDEO" ? post.media_url : post.thumbnail_url} alt={post.caption} />
-                </a>
-              </div>
+              <FeedCard permalink={post.permalink} media_type={post.media_type} media_url={post.media_url || ""} caption={post.caption} thumbnail_url={posts.thumbnail_url} alt={post.alt} />
             ))
           }
         </div>
