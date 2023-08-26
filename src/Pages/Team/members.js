@@ -51,7 +51,7 @@ const CoreMembers = [
     {
         
         "id": 73,
-        "memberImage": "/assets/member-images/rishabh.jpg",
+        "memberImage": "/assets/member-images/rishabh.jpeg",
         "memberName": "Rishabh Choudhary",
         "memberAbout": "",
         "memberSocialLinkedinPath": "https://www.linkedin.com/in/rishabhxchoudhary/",
