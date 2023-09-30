@@ -4,7 +4,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 const Card = ({ event, showEventModal }) => {
 
   const { name, date, description, venue, image } = event;
-  const Image = require(`../../Assets/Images/${image}`);
+  const Image = require(`../../Assets/Images/feed/${image}`);
 
   function handleClick() {
     showEventModal(event);

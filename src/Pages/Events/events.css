@@ -509,6 +509,11 @@ main {
   border-radius: 4px;
 }
 
+.no-upcoming-event
+{
+  font-size: large;
+}
+
 @media only screen and (max-width: 900px) {
   .modal-overlay .modal {
     width: 90%;
