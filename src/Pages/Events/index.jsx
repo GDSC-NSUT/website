@@ -2,17 +2,20 @@ import React, { useEffect, useRef } from "react";
 import Card from "./Card";
 import "./events.css";
 import { useState } from "react";
-import upcomingEvents from "./events_upcoming.json";
+import upcomingEvents from "./events_past.json";
 import pastEvents from "./events_upcoming.json";
 import { MdArrowBackIosNew, MdFilterList } from "react-icons/md";
 import { RiSearchLine } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 import { HiLocationMarker } from "react-icons/hi";
 import Carousel from "./Carousel";
-import Image from "../../Assets/Images/events-workshop.jpg";
+import Image_1 from "../../Assets/Images/feed/orientation.jpg";
+import Image_2 from "../../Assets/Images/feed/Deeplearning.jpg";
+import Image_3 from "../../Assets/Images/feed/nsut_ai.jpg";
+import Image from "../../Assets/Images/feed/nsut_ai.jpg"
 
 const Events = () => {
-  const [events, setEvents] = useState("U");
+  const [events, setEvents] = useState("P");
   const [modalEvent, setModalEvent] = useState({});
   const modalOverlayRef = useRef();
   const modalRef = useRef();
@@ -49,9 +52,11 @@ const Events = () => {
   }, [])
 
   const data = [
-    { key: 1, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" },
-    { key: 2, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" },
-    { key: 3, Image, title: "UX Tech 2022", desc: "A user interface and experience workshop" }
+    { key: 1, Image: require('../../Assets/Images/feed/nsut_ai.jpg'), title: "NSUT-AI x GDSC NSUT", desc: "Machine Learning Challenge" },
+    { key: 2, Image: require('../../Assets/Images/feed/orientation.jpg'), title: "Orientation 2023-24", desc: "Orientation session for the batch of 2023-24" },
+    { key: 3, Image: require('../../Assets/Images/feed/Deeplearning.jpg'), title: "Deep Learning Sprint", desc: "A fun filled and informative deep learning sprint session." },
+    { key: 4, Image: require('../../Assets/Images/feed/flutter_forward.jpg'), title: "Flutter forward Xtended", desc: "An exciting new workshop on Flutter." },
+    { key: 5, Image: require('../../Assets/Images/feed/orientation2022.jpg'), title: "Orientation 2022-23", desc: "Orientation session for the batch of 2022-23." }
   ];
 
   return (
@@ -91,10 +96,11 @@ const Events = () => {
           <div className="event-cards">
             {
               events === "U" ?
+                // upcomingEvents.map(event => {
+                //   return <Card key={event.id} event={event} showEventModal={showEventModal} />
+                // }) :
+                <span className="no-upcoming-event">There are currently no upcoming events. Please check again soon</span> :
                 upcomingEvents.map(event => {
-                  return <Card key={event.id} event={event} showEventModal={showEventModal} />
-                }) :
-                pastEvents.map(event => {
                   return <Card key={event.id} event={event} showEventModal={showEventModal} />
                 })
             }
@@ -107,7 +113,7 @@ const Events = () => {
             Object.keys(modalEvent).length > 0 &&
             <>
               <div className="event-cover-image-container">
-                <img className="event-cover-image" src={require(`../../Assets/Images/${modalEvent.coverImage}`)} alt={modalEvent.name} />
+                <img className="event-cover-image" src={require(`../../Assets/Images/feed/${modalEvent.coverImage}`)} alt={modalEvent.name} />
                 <div className="modal-close" onClick={hideEventModal}>
                   <MdArrowBackIosNew />
                 </div>
@@ -120,8 +126,8 @@ const Events = () => {
                   </div>
                   <div className="event-register">
                     <button className="register-btn">Register</button>
-                    <p>Registration ends on</p>
-                    <p>{modalEvent.registrationEndDate}</p>
+                    <p>Registration ended</p>
+                    {/* <p>{modalEvent.registrationEndDate}</p> */}
                   </div>
                 </div>
                 <div className="event-content-about">
