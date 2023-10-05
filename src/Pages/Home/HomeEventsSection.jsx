@@ -7,8 +7,12 @@ import Image from '../../Assets/Images/events-workshop.jpg';
 export default function HomeEventsSection() {
 
     const data = [
-        { key: 1, Image, title: "Orientation for Batch 2026", desc: "Welcome Batch of 2026!" },
-    ];
+        { key: 1, Image: require('../../Assets/Images/feed/nsut_ai.jpg'), title: "NSUT-AI x GDSC NSUT", desc: "Machine Learning Challenge" },
+        { key: 2, Image: require('../../Assets/Images/feed/orientation.jpg'), title: "Orientation 2023-24", desc: "Orientation session for the batch of 2023-24" },
+        { key: 3, Image: require('../../Assets/Images/feed/Deeplearning.jpg'), title: "Deep Learning Sprint", desc: "A fun filled and informative deep learning sprint session." },
+        { key: 4, Image: require('../../Assets/Images/feed/flutter_forward.jpg'), title: "Flutter forward Xtended", desc: "An exciting new workshop on Flutter." },
+        { key: 5, Image: require('../../Assets/Images/feed/orientation2022.jpg'), title: "Orientation 2022-23", desc: "Orientation session for the batch of 2022-23." }
+      ];
 
     console.log(data.length);
 
