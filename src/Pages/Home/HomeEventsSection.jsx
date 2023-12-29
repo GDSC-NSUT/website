@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import Carousel from '../Events/Carousel';
-import Image from '../../Assets/Images/events-workshop.jpg';
+// import Image from '../../Assets/Images/events-workshop.jpg';
 
 
 export default function HomeEventsSection() {

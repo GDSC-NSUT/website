@@ -3,16 +3,16 @@ import Card from "./Card";
 import "./events.css";
 import { useState } from "react";
 import upcomingEvents from "./events_past.json";
-import pastEvents from "./events_upcoming.json";
+// import pastEvents from "./events_upcoming.json";
 import { MdArrowBackIosNew, MdFilterList } from "react-icons/md";
 import { RiSearchLine } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 import { HiLocationMarker } from "react-icons/hi";
 import Carousel from "./Carousel";
-import Image_1 from "../../Assets/Images/feed/orientation.jpg";
-import Image_2 from "../../Assets/Images/feed/Deeplearning.jpg";
-import Image_3 from "../../Assets/Images/feed/nsut_ai.jpg";
-import Image from "../../Assets/Images/feed/nsut_ai.jpg"
+// import Image_1 from "../../Assets/Images/feed/orientation.jpg";
+// import Image_2 from "../../Assets/Images/feed/Deeplearning.jpg";
+// import Image_3 from "../../Assets/Images/feed/nsut_ai.jpg";
+// import Image from "../../Assets/Images/feed/nsut_ai.jpg"
 
 const Events = () => {
   const [events, setEvents] = useState("P");
